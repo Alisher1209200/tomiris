@@ -1,0 +1,27 @@
+.hits{
+    min-height: 500px;
+    padding: 100px 0 50px 0;
+    &__cards{
+        margin-top: 50px;
+        &-img{
+            height: 400px;
+            width: 100%;
+            background-color: black;
+        }
+        &-descr{
+            &_title{
+                font-family: 'Open sans Light', sans-serif;
+                font-size: 24px;
+            }
+            &_subtitle{
+                font-family: 'Open sans Light', sans-serif;
+                font-size: 18px;
+            }
+            &_tenge{
+                font-family: 'Open sans Regular', sans-serif;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+* {
+    font-family: 'Rubik Mono one', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 60px;
+    color: #f00e47;
+    &_black{
+        color: #000;
+    }
+}
+.subtitle{
+    color: #f00e47;
+    font-family: 'Open sans light', sans-serif;
+    font-size: 24px;
+    &_black{
+        color: #000;
+    }
+
+}
+.button{
+    background-color: #f00e47;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    font-family: 'Open sans light',sans-serif;
+    border-radius: 50px;
+    margin: 0 auto;
+    border: none;
+    &__white{
+        float: right;
+        background-color: #fff;
+        color: #000;
+        font-weight: 700;
+    }
+    &__sale{
+        background-color: #fff;
+        color: #000;
+        font-weight: 700;
+    }
+    &__black{
+        background-color: #000;
+    }
+}
+@import 'blocks/menu';
+@import 'variables/variable';
+@import 'blocks/promo';
+@import 'blocks/quality';
+@import 'blocks/hits';
+@import 'blocks/pizza';
+@import 'blocks/sushi';
+@import 'blocks/coctails';
+@import 'blocks/sale';
+@import 'blocks/delievery';
+@import 'blocks/footer';
+@import 'blocks/media';

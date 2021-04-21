@@ -1,0 +1,27 @@
+.footer{
+    padding: 20px 0 10px 0;
+    background-color: #000;
+    min-height: 90px;
+    color:white;
+    &__title{
+        font-family: 'Open sans light', sans-serif;
+        font-size: 20px;
+    }
+    &__tel{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        a{
+            font-family: 'Open sans light', sans-serif;
+            color: white;
+            text-decoration: none;
+            font-size: 12px;
+        }
+    }
+    &__icons{
+        img{
+            background-color: white;
+        }
+    }
+
+}

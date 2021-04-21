@@ -1,0 +1,24 @@
+.quality{
+    min-height: 100px;
+    padding: 20px 0 5px 0;
+    &__blocks{
+        display: flex;
+        &-header{
+            font-size: 18px;
+            font-family: 'Open sans light', sans-serif;
+            margin-left: 10px;
+        }
+        img{
+            height: 60px;
+        }
+        .btn{
+            background-color: #f00e47;
+            width: 200px;
+            height: 50px;
+            color: #fff;
+            font-family: 'Open sans light',sans-serif;
+            border-radius: 50px;
+            margin: 0 auto;
+        }
+    }
+}

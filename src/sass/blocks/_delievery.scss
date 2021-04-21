@@ -1,0 +1,30 @@
+.delievery{
+    min-height: 600px;
+    padding: 100px 0 10px 0;
+    .title{
+        font-size: 42px;
+        line-height: 42px;
+        color: black;
+    }
+    &__headers{
+        margin-top: 60px;
+        h1{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 900;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        span{
+            font-family: 'Open Sans ligth', sans-serif;
+
+        }
+    }
+    .main-color{
+        color: #f00e47;
+        font-weight: 900;
+    }
+    &__img{
+        margin-top: -100px;
+        width: 100%;
+    }
+}

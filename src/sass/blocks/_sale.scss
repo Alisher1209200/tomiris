@@ -1,0 +1,35 @@
+.sale{
+    background: url('../img/bg_skidka.png') center (center/cover) no-repeat;
+    min-height: 950px;
+    padding: 200px 0 250px 0;
+    &__title{
+        margin-top: 50px;
+        text-align: center;
+        color: #fff;
+        font-size: 120px;
+        line-height: 120px;
+    }
+    &__subtitle{
+        font-family: 'Open sans regular', sans-serif;
+        text-align: center;
+        color: #fff;
+        font-size: 22px;
+        line-height: 110px;
+    }
+    &__value{
+        color: #fff;
+        form{
+            margin-top: 50px;
+            input{
+                width: 280px;
+                border-radius: 150px;
+                height: 40px;
+                font-family:'Open sans ligth', sans-serif;
+                padding-left: 10px;
+                border: none;
+                background: rgba($color: #ffffff, $alpha: 0.6);
+            }
+        }
+    }
+    
+}

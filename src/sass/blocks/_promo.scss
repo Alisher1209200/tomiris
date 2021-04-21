@@ -1,0 +1,19 @@
+.promo{
+    min-height: 530px;
+    padding: 50px 0 20px 0;
+    &__title{
+        font-size: 120px;
+        line-height: 120px;
+        color: black;
+    }
+    &__subtitle{
+        font-family: 'Open sans light', sans-serif;
+        font-size: 30px;
+    }
+    &__pizza{
+        img{
+            height: 430px;
+        }
+
+    }
+}
